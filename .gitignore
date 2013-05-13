@@ -5,12 +5,14 @@ capybara-*.html
 .rspec
 /.bundle
 /vendor/bundle
-/log/*
-/tmp/*
 /db/*.sqlite3
+/db/*.sqlite3-journal
+/log/*.log
+/tmp
 /public/system/*
 /coverage/
 /spec/tmp/*
 **.orig
 rerun.txt
 pickle-email-*.html
+
